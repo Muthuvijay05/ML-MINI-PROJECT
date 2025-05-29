@@ -3,7 +3,6 @@ import numpy as np
 import librosa
 from tensorflow.keras.models import load_model
 from tempfile import NamedTemporaryFile
-import os
 st.set_page_config(page_title="Sound Classifier", layout="centered")
 st.title("🔊 Sound Classification Using CNN")
 # Load your model
